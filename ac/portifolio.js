@@ -40,7 +40,7 @@ const body = document.body
         div.setAttribute('class', 'textoapresentacao');
         
         var textoBanner = document.createElement("h1");
-        textoBanner.innerText = 'Olá, nós somos Gaby, Isa e Mari. Gaby tem 16 anos e faço aniversário dia 01/05, a Isa tem 17 anos e faz aniversário dia 01/11 e a Mari tem 18 aninhos e faz aniverário dia 11/10. Estudamos na Fiap School hâ 3 anos, entramos no 1 ano do ensino médio e esse ano vamos finalizar o ensino médio. Fazemos Ensino Médio Técnico em Ti, eu(Gaby) pretendo seguir essa profissão, a Isa acho que ela quer fazer design e a Mari eu não sei :) .';
+        textoBanner.innerText = 'Olá, nós somos Gaby, Isa e Mari. Gaby tem 16 anos e faz aniversário dia 01/05, a Isa tem 17 anos e faz aniversário dia 01/11 e a Mari tem 18 aninhos e faz aniverário dia 11/10. Estudamos na Fiap School há 3 anos, entramos no 1 ano do ensino médio e esse ano vamos finalizar o ensino médio. Fazemos Ensino Médio Técnico em Ti, eu(Gaby) pretendo seguir essa profissão, a Isa acho que ela quer fazer design e a Mari eu não sei :) .';
     
         div.appendChild(textoBanner);
         body.append(div);
@@ -168,7 +168,7 @@ submitButton.type = 'submit';
 submitButton.textContent = 'Enviar';
 submitButton.style.width = '100%';
 submitButton.style.padding = '15px';
-submitButton.style.backgroundColor = '#180c68';
+submitButton.style.backgroundColor = '#2b2b2b';
 submitButton.style.color = 'white';
 submitButton.style.fontWeight = 'bold'
 submitButton.style.borderRadius = '10px';

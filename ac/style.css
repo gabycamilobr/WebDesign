@@ -57,7 +57,7 @@ body {
 .card-1{
   
   display: flex;
-  background-image: url(img/dedicacao.jpg);
+  background-image: url(img/dedicacao.png);
   background-color: #000;
   align-items: center;
   justify-content: center;
@@ -69,25 +69,26 @@ body {
   height: 50vh;
   border: 1px solid #000;
   box-sizing: border-box; 
-  border-width: 1px;
-  border-color: aliceblue;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
   background-color: rgb(0, 15, 0);
 
   transition: all .15s;
 }
 
 .card-1:hover{
-  background-image: url(g);
+  background-image: url(img/trabalhoescuro.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
   
-  border: 10px solid #000000;
-  border-radius: 10%;
+  border: 2px solid #000000;
+  border-radius: 5%;
 }
 
 .card-2{
   display: flex;
+  background-image: url(img/11.png);
   background-color: #000;
   align-items: center;
   justify-content: center;
@@ -100,24 +101,24 @@ body {
   border: 1px solid #000;
   box-sizing: border-box; 
   border-width: 1px;
-  border-color: aliceblue;
+  border-color: rgb(0, 0, 0);
   background-color: rgb(0, 0, 0);
 
   transition: all .15s;
 }
 
 .card-2:hover{
-  background-image: url();
+  background-image: url(img/12.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
-
-  border: 10px solid #000000;
-  border-radius: 10%;
+  border: 2px solid #000000;
+  border-radius: 5%;
 }
 
 .card-3{
   display: flex;
+  background-image: url(img/1.png);
   background-color: #000;
   align-items: center;
   justify-content: center;
@@ -138,16 +139,17 @@ body {
 }
 
 .card-3:hover{
-  background-image: url(images/!eric.png);
+  background-image: url(img/2.png);
   background-size: cover;
   width: 52vh; 
   height: 52vh;
 
   
-  border: 10px solid #000000;
-  border-radius: 10%;
+  border: 2px solid #000000;
+  border-radius: 5%;
  
 }
+
 .sec1 {
   background-position: 100%;
   background-size: cover;
